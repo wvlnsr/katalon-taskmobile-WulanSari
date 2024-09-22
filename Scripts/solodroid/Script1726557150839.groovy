@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('username-btn'), 0)
 
 Mobile.setText(findTestObject('username-field'), 'halohalobandung', 0)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 Mobile.closeApplication()
 
