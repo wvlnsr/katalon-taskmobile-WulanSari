@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>solodroid</name>
+   <name>3. Add product to cart</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>4b8c708b-eb2f-40bc-9e62-22fc2639fc9a</testCaseGuid>
+   <testCaseGuid>5b86795f-b11b-4a36-8d8c-c76b61443709</testCaseGuid>
 </TestCaseEntity>
