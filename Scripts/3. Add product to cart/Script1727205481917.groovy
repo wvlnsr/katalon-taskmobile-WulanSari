@@ -17,24 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('Apk/Solodroid_E-CommerceApp Demo_3.2.0.apk', false)
-
-Mobile.verifyElementExist(findTestObject('profile-menu'), 0)
-
-//Mobile.swipe(541, 1624, 532, 946)
-Mobile.tap(findTestObject('profile-menu'), 0)
-
-Mobile.verifyElementExist(findTestObject('edit-btn'), 0)
-
-Mobile.tap(findTestObject('edit-btn'), 0)
-
-Mobile.verifyElementExist(findTestObject('username-btn'), 0)
-
-Mobile.tap(findTestObject('username-btn'), 0)
-
-Mobile.setText(findTestObject('username-field'), 'halohalobandung', 0)
-
-WebUI.delay(3)
-
-Mobile.closeApplication()
-
